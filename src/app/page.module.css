@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 2rem;
+}
+
+.button {
+  border: none;
+  padding: 0.7rem 0rem;
+  width: 120px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #e6f1e9;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.logoSize {
+  font-size: 6rem;
+}
+
+@media (max-width: 768px) {
+  .logoSize {
+    font-size: 2.5rem;
+  }
+  .button {
+    padding: 0.5rem 0rem;
+    width: 80px;
+    font-size: 0.7rem;
+  }
+  .buttonContainer {
+    gap: 0.5rem;
+  }
+  .main {
+    gap: 0rem;
+  }
+}

@@ -1,0 +1,29 @@
+.elementList {
+  margin-top: 1rem;
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.element {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.element:hover {
+  color: #ff6363;
+}
+
+@media (max-width: 1200px) {
+  .elementList {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .elementList {
+    font-size: 0.75rem;
+    margin-left: 1.5rem;
+  }
+}

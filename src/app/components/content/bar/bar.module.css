@@ -1,0 +1,26 @@
+.box {
+  display: inline-flex;
+  border: none;
+  border-bottom: 1px solid #4a4a4a;
+  padding: 0.5rem 0;
+  font-family: inherit;
+  font-size: inherit;
+  gap: 0.75rem;
+  width: 10rem;
+  box-sizing: border-box;
+}
+
+.search {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 780px) {
+  .box {
+    width: auto;
+    flex: 1;
+  }
+  .search {
+    width: 20rem;
+  }
+}

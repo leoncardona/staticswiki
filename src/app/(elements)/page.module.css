@@ -1,0 +1,27 @@
+.main {
+  height: 565px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+
+.svg {
+  width: 15rem;
+}
+
+@media (max-width: 1200px) {
+  .svg {
+    display: none;
+  }
+  .main {
+    justify-content: center;
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .main {
+    margin: 2rem 1rem 0 1rem;
+  }
+}
